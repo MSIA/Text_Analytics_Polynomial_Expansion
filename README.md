@@ -21,4 +21,12 @@ The transformer emerged as the best performing model.This ML model is exposed as
   ```
 4. The web app must be running on the local host. To interact, open this link: http://127.0.0.1:5000/apidocs. 
 
+#### Steps to run inference
 
+1. To run inference on user input, you can open the `/Factorized_Input` method and select the button that says "Try it out" on the top right corner. 
+2. Then you can input the factorized polynomial in the text box inside this method. Then select "Execute" on the bottom of the method to run the prediction. The response will show the expanded polynomial as output. 
+
+Example inputs - 
+1. (4-2*x)*(5*x-7)
+2. (-9*sin(n)-31)*(8*sin(n)-9)
+3. z*(2*z+18)
